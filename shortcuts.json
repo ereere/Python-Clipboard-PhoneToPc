@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": "9b0db1bd-87b8-456b-a741-001b0cbe2282",
+      "name": "快捷方式",
+      "shortcuts": [
+        {
+          "authentication": "basic",
+          "bodyContent": "{{b3b3ed48-5718-447d-98c2-74dde96440b7}}",
+          "codeOnSuccess": "showToast(\"剪切板已发送\");",
+          "iconName": "flat_grey_arrow_up",
+          "id": "70694c1c-4051-4566-892b-deb0d5f8da3e",
+          "method": "POST",
+          "name": "剪切板发送",
+          "password": "Password1",
+          "responseHandling": {
+            "successOutput": "none"
+          },
+          "url": "http://192.168.1.2:8087/topc",
+          "username": "admin"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "b3b3ed48-5718-447d-98c2-74dde96440b7",
+      "key": "clipboardValue",
+      "type": "clipboard"
+    }
+  ],
+  "version": 59
+}
